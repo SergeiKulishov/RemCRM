@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemCRM.Api", "RemCRM.Api\RemCRM.Api.csproj", "{AF6A8757-2F12-4CC0-8CCF-5DF5095244EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemCRM.DAL", "RemCRM.DAL\RemCRM.DAL.csproj", "{C5DE4C28-C18F-417F-A2AF-B8A2738E1D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemCRM.BL", "RemCRM.BL\RemCRM.BL.csproj", "{EB380185-A1C7-4C66-8882-1FDDD51ED81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemCRM.Core", "RemCRM.Core\RemCRM.Core.csproj", "{661DC9FE-37E9-4339-B4A5-295C24E62924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF6A8757-2F12-4CC0-8CCF-5DF5095244EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6A8757-2F12-4CC0-8CCF-5DF5095244EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6A8757-2F12-4CC0-8CCF-5DF5095244EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6A8757-2F12-4CC0-8CCF-5DF5095244EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DE4C28-C18F-417F-A2AF-B8A2738E1D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DE4C28-C18F-417F-A2AF-B8A2738E1D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DE4C28-C18F-417F-A2AF-B8A2738E1D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DE4C28-C18F-417F-A2AF-B8A2738E1D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB380185-A1C7-4C66-8882-1FDDD51ED81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB380185-A1C7-4C66-8882-1FDDD51ED81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB380185-A1C7-4C66-8882-1FDDD51ED81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB380185-A1C7-4C66-8882-1FDDD51ED81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661DC9FE-37E9-4339-B4A5-295C24E62924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661DC9FE-37E9-4339-B4A5-295C24E62924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661DC9FE-37E9-4339-B4A5-295C24E62924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661DC9FE-37E9-4339-B4A5-295C24E62924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
